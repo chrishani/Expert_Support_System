@@ -1,0 +1,63 @@
+<div class="row">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <img src="../assets/images/logo.png">
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="AdminClasses">My Classes</a></li>
+            <li class=""><a href="AdminRequests">Requests</a></li>
+            <li class=""><a href="AdminUsers">Users</a></li>
+            <li class=""><a href="AdminProfile">My profile</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Page 1-1</a></li>
+                <li><a href="#">Page 1-2</a></li>
+                <li><a href="#">Page 1-3</a></li>
+              </ul>
+            </li>
+            
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span> <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#"> Your Profile</a></li>
+                    <li><a href="#"> Setting</a></li>
+                </ul>
+            <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+          </ul>
+        </div>
+      </nav>
+</div>
+
+<div class="row newclass">
+    <form class="newclassform" action="">
+        <h3>Create your new classes</h3>
+      <label for="clsname">Class Name</label>
+      <input type="text" id="clsname" name="clsname" placeholder="Class name..">
+  
+      <label for="description">Description</label>
+      <input class="description" type="text" id="description" name="description" placeholder="Your description..">
+  
+      <label for="users">Expected Users</label>
+        <div class="row">
+            <select id="supporters" name="supporters">
+                <option value="australia">0 - 50</option>
+                <option value="canada">50 - 150</option>
+                <option value="usa">150 - 500</option>
+                <option value="usa">more than 500</option>
+            </select><label class="userlable" for="users">Supporters</label>
+            <select id="supporters" name="supporters">
+                <option value="australia">0 - 50</option>
+                <option value="canada">50 - 150</option>
+                <option value="usa">150 - 500</option>
+                <option value="usa">more than 500</option>
+            </select><label class="userlable" for="users">Students</label>
+        </div>
+    
+      <div class="row">
+        <button class="bSubmit"><a href="#">Submit</a></button>
+        <button class="bCancel"><a href="AdminClasses">Cancel</a></button>
+      </div>
+    </form>
+</div>

@@ -1,0 +1,117 @@
+img {
+    width: 3.5em;
+    height: 3.5em;
+    margin: auto;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+.ruser {
+    background-color:#fea881;
+    margin-top: -20px;
+    position: absolute;
+    width: 100%;
+    height: 650px;
+}
+
+.ruser-body {
+    position: relative;
+    height: 90%;
+    width: 80%;
+    margin-top: 20px !important;
+    margin: auto;
+    border: 1px solid #fea881;
+    background-color: white;
+}
+
+.ruser-body .col-md-3 img {
+    width: 209px;
+    height: 209px;
+    border-radius: 100%;
+    margin-top: 20% !important;
+    margin-left: 20px;
+}
+
+.ruser-body .col-md-3 h4 {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center !important;
+}
+
+.ruser-body .col-md-3 p {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center !important;
+}
+
+.ruser-body .col-md-9 h6 {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left !important;
+    margin-bottom: 1.5rem !important;
+    margin-top: 40px !important;
+}
+
+.ruser-body .col-md-3 label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.ruser-body .col-md-6 button {
+    height: 45px !important;
+    width: 90%;
+    border-radius: 4px !important;
+    border: none !important;
+    font-weight: bold;
+    color: #fff;
+    padding: 0px;
+    line-height: 45px !important;
+    font-size: 14px !important;
+}
+
+.btnConfirm {
+    background-color: green;
+}
+
+.btnConfirm:hover{
+    background: #00b300;
+}
+
+.btnConfirm a{
+    color: white;
+    text-decoration: none;
+}
+
+.btnDelete{
+    background-color: red;
+}
+
+.btnDelete:hover {
+    background: #ff3333;
+}
+
+.btnDelete a{
+    color: white;
+    text-decoration: none;
+}
+
+.btnBack {
+    margin-top: 10px;
+    margin-right: 5px;
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: #bfbfbf;
+}
+
+.btnBack a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.btnBack:hover {
+    background: #d9d9d9;
+}

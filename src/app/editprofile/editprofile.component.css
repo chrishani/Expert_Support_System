@@ -1,0 +1,102 @@
+img {
+    width: 3.5em;
+    height: 3.5em;
+    margin: auto;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+.profile-body {
+    background-color:#fea881;
+    margin-top: -20px;
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+}
+.profile {
+    position: relative;
+    height: 600px;
+    width: 80%;
+    margin-top: 30px !important;
+    margin: auto;
+    border-color: gray;
+    background-color: white;
+}
+
+.profilepic {
+    height: 100%;
+    background-color: tomato;
+}
+
+.profilepic  img{
+    width: 60%;
+    height: 25%;
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.profilepic h3 {
+    margin-left: 10%;
+    margin-top: 10%;
+    color: white;
+}
+
+.profilepic p {
+    margin-left: 40%;
+    margin-top: 5%;
+    color: white;
+}
+
+.details .col-md-3 {
+    color: gray;
+}
+
+.details .col-md-9 input{
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.details .col-md-6 .btnSave {
+    width: 90%;
+    padding: 8px 15px;
+    color: white;
+    background-color: green;
+    border: none;
+}
+
+.details .col-md-6 .btnSave  a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px !important;
+}
+
+.details .col-md-6 .btnSave:hover{
+    background: #00b300;
+}
+
+.details .col-md-6 .btnCancel {
+    width: 90%;
+    margin-left: 39px;
+    padding: 8px 15px;
+    color: white;
+    background-color:red;
+    border: none;
+}
+
+.details .col-md-6 .btnCancel  a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px !important;
+}
+
+.details .col-md-6 .btnCancel:hover{
+    background: #ff3333;
+}

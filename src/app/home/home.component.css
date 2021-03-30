@@ -1,0 +1,91 @@
+@import url(https://use.fontawesome.com/releases/v5.3.1/css/all.css);
+/*Menu bar css code goes here */
+#section2{
+	background-color: black;
+	color: black;
+	height: 76px;
+	line-height: 60px;
+}
+.row1 {
+	color: #666666;
+	font-size: 2em;
+    height:27px;
+    margin-top: 3px; 
+}
+.row2 {
+	color: #CCCCCC;
+	font-size: 1.3em;
+	height: 5px;
+}
+.row3 {
+   align-items: center;
+}
+.icn{
+	color: #fc864f;
+	margin-top: 32px;
+	size: 3em;
+}
+.bt1{
+	color: #ff471a;
+	font-size: 1.2em;
+	margin-top: 17px;
+}
+.bt{
+	background-color:#ff471a !important;
+	font-size: 1.2em;
+	margin-top: 17px;
+}
+.contact {
+    color: #B2B2B2;
+    font-size: 1.2em;
+    margin-top: 10px !important;
+}
+/*End of Menu bar*/
+
+
+/*Slide show css code goes here */
+.slideshow{
+	background-image: url("../../assets/images/image1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 625px;
+	opacity: 0.95;
+	height: 620px;
+	width: 100%;
+	position: relative;
+}
+
+.slideshow .text {
+	background-color: #D9D9D9;
+	margin: 0 auto;
+	margin-top: 200px;
+	padding: 20px;
+	text-align: center;
+	font-size: 43px;
+    height: 100px;
+    width: 683px;
+    opacity: 0.9;
+    color: #ff471a;
+}
+
+.slideshow .text1 {
+	color: white;
+	margin: 0 auto;
+	font-size: 30px;
+	text-align: center;
+}
+
+.slideshow .btnjoin {
+	position: absolute;
+}
+
+.btn1{
+	background-color:#ff471a !important;
+	color: #ffffff;
+	font-size: 1.2em;
+	padding: 6px 16px;
+	opacity: 0.9;
+  	text-align: center;
+	border-radius: 8px;
+	margin-left: 600px;
+	
+}
